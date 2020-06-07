@@ -57,7 +57,6 @@ def show_explanation(img, n_segments, shap_values, labels, preds):
     return fig
 
 
-from azureml.contrib.interpret import image_explainer
 def prep_shaps(y, n, n_segments):
     """Prepare a list of shap values for the selected images. 
 
